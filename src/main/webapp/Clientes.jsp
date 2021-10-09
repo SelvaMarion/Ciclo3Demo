@@ -46,8 +46,7 @@
 		</div>
 	</nav>
 	<div class="container">
-		<div
-			class="border md-12 d-flex justify-content-center align-items-center"
+		<div class="border md-12 d-flex justify-content-center align-items-center"
 			style="">
 			<div class="col-md-12 text-center">
 				<form action="Controlador" method="POST">
@@ -97,6 +96,7 @@
 					</div>
 				</form>
 			</div>
+		</div>
 		</div>
 </body>
 <script

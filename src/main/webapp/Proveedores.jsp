@@ -13,88 +13,96 @@
 <title>Modulo proveedores</title>
 </head>
 <body>
-  <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <ul class="navbar-nav">
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="nav-link active" aria-current="page" href="#">Home</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Usuarios" target "myFrame">Usuarios</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Clientes" target "myFrame">Clientes</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Proveedores" target "myFrame">Proveedores</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Productos" target "myFrame">Productos</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Ventas" target "myFrame">Ventas</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Reportes" target "myFrame">Reportes</a>
-	        </li>
-        </ul>
-      <div class="dropdown">
-		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
-		    Usuario logueado
-		  </button>
-		  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-		    <li><a class="dropdown-item" href="#">Usuarios</a></li>
-		   </ul>
-	</div>
-    </div>
-  </div>
-</nav>
-	<div class="d-flex"></div>
-		<div class="col-sm-4">
-			<div class="card">
-				<div class="card-body">
-					<form action="Controlador" method="POST">
-					<div class="container mt-6">
+	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+		<ul class="navbar-nav">
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="nav-link active" aria-current="page" href="#">Home</a></li>
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="btn btn-outline-ligth" href="Controlador?accion=Usuarios"target "myFrame">Usuarios</a>
+			</li>
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="btn btn-outline-ligth" href="Controlador?accion=Clientes"target "myFrame">Clientes</a>
+			</li>
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="btn btn-outline-ligth" href="Controlador?accion=Proveedores"target "myFrame">Proveedores</a>
+			</li>
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="btn btn-outline-ligth" href="Controlador?accion=Productos"target "myFrame">Productos</a>
+			</li>
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="btn btn-outline-ligth" href="Controlador?accion=Ventas"target "myFrame">Ventas</a>
+			</li>
+			<li class="nav-item"><a style="margin-left: 10px; border: none"
+				class="btn btn-outline-ligth" href="Controlador?accion=Reportes"target "myFrame">Reportes</a>
+			</li>
+		</ul>
+		<div class="dropdown">
+			<button class="btn btn-secondary dropdown-toggle" type="button"
+				id="dropdownMenuButton1" data-bs-toggle="dropdown"
+				aria-expanded="false">Usuario logueado</button>
+			<ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+				<li><a class="dropdown-item" href="#">Usuarios</a></li>
+			</ul>
+		</div>
+		</div>
+		</div>
+	</nav>
+	<div class="container">
+		<div
+			class="border md-12 d-flex justify-content-center align-items-center"
+			style="">
+			<div class="col-md-12 text-center">
+				<form action="Controlador" method="POST">
+					<div
+						class="form group d-flex justify-content-center align-items-center">
+						<div class="container mt-6">
 							<h2>Modulo Proveedores</h2>
-							</div>
-							<br>
-						<div class="container">
-							<table>
-								<tr>
-									<th>NIT</th>
-									<th>Nombre Proveedor</th>
-									<th>Dirección</th>
-									<th>Teléfono</th>
-									<th>Ciudad</th>
-								</tr>
-								<tr>
-									<td><input type="text" name="NIT"
-										class="form-control"></td>
-									<td> <input type="text" name="nombreproveedor"
-										class="form-control"></td>
-									<td><input type="text" name="direccionproveedor"
-										class="form-control"></td>
-									<td><input type="text" name="telproveedor"
-										class="form-control"></td>
-									<td><input type="text" name="ciudadproveedor" 
-									class="form-control"></td>
-								</tr>
-							</table>
 						</div>
-						<div class="container">
+						</div>
 						<br>
-							<table>
-								<tr>
-									<th><button class="btn btn-info">Consultar</button></th>
-									<th><button class="btn btn-info">Crear</button></th>
-									<th><button class="btn btn-info">Actualizar</button></th>
-									<th><button class="btn btn-info">Borrar</button></th>
-								</tr>
-							</table>
+						<div class="container">
+							<div
+								class="form group d-flex justify-content-center align-items-center">
+								<table>
+									<tr>
+										<th>NIT</th>
+										<th>Nombre Proveedor</th>
+										<th>Dirección</th>
+										<th>Teléfono</th>
+										<th>Ciudad</th>
+									</tr>
+									<tr>
+										<td><input type="text" name="NIT" class="form-control"></td>
+										<td><input type="text" name="nombreproveedor"
+											class="form-control"></td>
+										<td><input type="text" name="direccionproveedor"
+											class="form-control"></td>
+										<td><input type="text" name="telproveedor"
+											class="form-control"></td>
+										<td><input type="text" name="ciudadproveedor"
+											class="form-control"></td>
+									</tr>
+								</table>
+							</div>
 						</div>
-					</form>
-				</div>
+						<div class="container">
+							<div
+								class="form group d-flex justify-content-center align-items-center">
+								<br>
+								<table>
+									<tr>
+										<th><button class="btn btn-info">Consultar</button></th>
+										<th><button class="btn btn-info">Crear</button></th>
+										<th><button class="btn btn-info">Actualizar</button></th>
+										<th><button class="btn btn-info">Borrar</button></th>
+									</tr>
+								</table>
+							</div>
+						</div>
+				</form>
 			</div>
 		</div>
+	</div>
 </body>
 <script
 	src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"

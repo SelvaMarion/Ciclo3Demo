@@ -49,11 +49,12 @@
     </div>
   </div>
 </nav>
-	<div class="d-flex"></div>
-		<div class="col-sm-4">
-			<div class="card">
-				<div class="card-body">
-					<form action="Controlador" method="POST">
+	<div class ="container">
+	<div class = "border md-12 d-flex justify-content-center align-items-center" style="heigth 600px;">
+		<div class="col-md-12 text-center">
+				<form action="Controlador" method="POST">
+						<div class = "form group d-flex justify-content-center align-items-center">
+						<div class="container mt-6">
 					<h2>Modulo Usuarios</h2>
 						<div class="container">
 							<table>
@@ -80,7 +81,10 @@
 							</table>
 						</div>
 						<div class="container">
-						<br>
+						<div
+							class="form group d-flex justify-content-center align-items-center">
+							<br>
+						
 							<table>
 								<tr>
 									<th><button class="btn btn-info">Consultar</button></th>
