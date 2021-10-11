@@ -6,10 +6,24 @@ font-weight : normal;
 
 H1 {
 font-size : 36pt;
-font-family : verdana,arial;
-text-decoration : underline;
+font-family : Century Gothic,arial,sans-serif;
+color :  rgb(255, 0, 128);
 text-align : center;
-background-color : black;
+background-color : rgb(255, 255, 255);
+}
+H2 {
+font-size : 36pt;
+font-family : Century Gothic,arial,sans-serif;
+color :  rgb(255, 0, 128);
+text-align : center;
+background-color : rgb(255, 255, 255);
+}
+DIV {
+font-size : 18pt;
+font-family : Century Gothic,arial,sans-serif;
+color :  rgb(128, 0, 128);
+text-align : left;
+background-color : rgb(255, 255, 255);
 }
 TD {
 font-size : 10pt;
@@ -18,7 +32,7 @@ text-align : center;
 background-color : 666666;
 }
 BODY {
-background-color : #006600;
+background-color : rgb(207, 159, 255);
 font-family : arial;
 color : White;
 }

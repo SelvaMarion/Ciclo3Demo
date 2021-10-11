@@ -38,5 +38,10 @@ public class UsuarioDao implements Validar{
         
         
     }
+	@Override
+	public int validar(Usuarios usuario) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
  
 }

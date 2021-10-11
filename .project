@@ -28,4 +28,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/webapp/img/logo_flor.png</name>
+			<type>1</type>
+			<location>C:/Users/AIvanDCamG/Documents/Mision TIC/2. Ciclo 3 DESARROLLO DE SOFTWARE/tiendagenerica/logo_flor.png</location>
+		</link>
+	</linkedResources>
 </projectDescription>

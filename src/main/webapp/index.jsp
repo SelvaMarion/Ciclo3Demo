@@ -10,7 +10,7 @@
 	rel="stylesheet"
 	integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
 	crossorigin="anonymous">
-<title>Login de usuarios</title>
+<title>Login de Usuarios</title>
 </head>
 <body>
 	<div class="container mt-4 col-lg-4">
@@ -23,7 +23,7 @@
 						<div class="row">
 							<div class="colum lg-8"></div>
 							<div class = "form-group text-center">
-								<img src="img/logo.jpg" height="180" width="180" />
+								<img src="img/logo_flor.png" height="180" width="180" />
 								<h1>
 									<strong>SELVIMIDOZ</strong>
 								</h1>
@@ -43,6 +43,7 @@
 							<br>
 							<div>
 								<button class="btn btn-info">Ingresar</button>
+								<button class="btn btn-outline-dark">Cerrar</button>
 							</div>
 						</div>
 					</div>
