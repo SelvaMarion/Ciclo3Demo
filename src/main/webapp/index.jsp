@@ -43,7 +43,7 @@
 							<br>
 							<div>
 								<button class="btn btn-info">Ingresar</button>
-								<button class="btn btn-outline-dark">Cerrar</button>
+								<button class="btn btn-info">Cerrar</button>
 							</div>
 						</div>
 					</div>

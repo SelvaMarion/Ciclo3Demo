@@ -14,7 +14,6 @@
 
 </head>
 <body>
-<<<<<<< HEAD
    <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <ul class="navbar-nav">
 	        <li class="nav-item">
@@ -34,32 +33,8 @@
 	        </li>
 	        <li class="nav-item">
 	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Ventas.jsp" target "myFrame">Ventas</a>
-=======
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-        <ul class="navbar-nav">
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="nav-link active" aria-current="page" href="#">Home</a>
 	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Usuarios" target "myFrame">Usuarios</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Clientes" target "myFrame">Clientes</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Proveedores" target "myFrame">Proveedores</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Productos" target "myFrame">Productos</a>
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Ventas" target "myFrame">Ventas</a>
->>>>>>> 8f464fce18d6e22545944a311b71571942b70417
-	        </li>
-	        <li class="nav-item">
-	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Reportes" target "myFrame">Reportes</a>
-	        </li>
-        </ul>
+	         </ul>
       <div class="dropdown">
 		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
 		    Usuario logueado
@@ -67,9 +42,6 @@
 		  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
 		    <li><a class="dropdown-item" href="#">Usuarios</a></li>
 		   </ul>
-	</div>
-    </div>
-  </div>
 </nav>
 	<div class ="container">
 	<div class = "border md-12 d-flex justify-content-center align-items-center" style="heigth 600px;">
