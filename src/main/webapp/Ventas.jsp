@@ -16,6 +16,24 @@
     <nav class="navbar navbar-expand-lg navbar-light bg-info">
         <ul class="navbar-nav">
 	        <li class="nav-item">
+<<<<<<< HEAD
+	          <a style="margin-left: 10px;border: none"class="nav-link active" aria-current="page" href="Principal">Principal</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Usuario.jsp" target "myFrame">Usuarios</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Clientes.jsp" target "myFrame">Clientes</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Proveedores.jsp" target "myFrame">Proveedores</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Productos.jsp" target "myFrame">Productos</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="#" target "myFrame">Ventas</a>
+=======
 	          <a style="margin-left: 10px;border: none"class="nav-link active" aria-current="page" href="#">Home</a>
 	        </li>
 	        <li class="nav-item">
@@ -32,6 +50,7 @@
 	        </li>
 	        <li class="nav-item">
 	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Ventas" target "myFrame">Ventas</a>
+>>>>>>> 8f464fce18d6e22545944a311b71571942b70417
 	        </li>
 	        <li class="nav-item">
 	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Reportes" target "myFrame">Reportes</a>

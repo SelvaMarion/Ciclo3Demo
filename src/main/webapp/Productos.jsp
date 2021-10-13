@@ -14,6 +14,42 @@
 </head>
 <body>
 	<nav class="navbar navbar-expand-lg navbar-light bg-info">
+<<<<<<< HEAD
+        <ul class="navbar-nav">
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="nav-link active" aria-current="page" href="Principal">Principal</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Usuario.jsp" target "myFrame">Usuarios</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Clientes.jsp" target "myFrame">Clientes</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Proveedores.jsp" target "myFrame">Proveedores</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="#" target "myFrame">Productos</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Ventas.jsp" target "myFrame">Ventas</a>
+	        </li>
+	        <li class="nav-item">
+	          <a style="margin-left: 10px;border: none"class="btn btn-outline-ligth" href="Controlador?accion=Reportes" target "myFrame">Reportes</a>
+	        </li>
+        </ul>
+      <div class="dropdown">
+		  <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
+		    Usuario logueado
+		  </button>
+		  <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+		    <li><a class="dropdown-item" href="#">Usuarios</a></li>
+		   </ul>
+	</div>
+    </div>
+  </div>
+</nav>
+=======
 		<ul class="navbar-nav">
 			<li class="nav-item"><a style="margin-left: 10px; border: none"
 				class="nav-link active" aria-current="page" href="#">Home</a></li>
@@ -45,6 +81,7 @@
 			</ul>
 		</div>
 	</nav>
+>>>>>>> 8f464fce18d6e22545944a311b71571942b70417
 	<div class="container">
 		<div class="border md-12 d-flex justify-content-center align-items-center"
 			style="">
